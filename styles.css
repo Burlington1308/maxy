@@ -149,17 +149,49 @@ body {
     border-radius: 20px 80px 80px 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     text-align: center;
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease-in-out;
     display: flex;
     padding: 10px;
 }
 
 .service-card:hover {
     transform: translateY(-10px);
+    border-radius: 80px 80px 80px 80px;
 }
 
 .service-card img {
     width: 30%;
     object-fit: cover;
     clip-path: circle();
+}
+
+.service-card h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.service-card p {
+    margin-top: 10px;
+    font-size: 1rem;
+    padding: 0 10px;
+}
+
+.service-card button {
+    margin-top: auto;
+    margin-bottom: 10px;
+    padding: 8px 16px;
+    background-color: #08c4f3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.service-card button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.service-card button:hover {
+    background-color: #067ea8;
 }
