@@ -35,6 +35,11 @@ body {
     font-weight: bold;
 }
 
+.navbar a:hover {
+    text-decoration: underline;
+    transition: transform 0.5s ease-in-out;
+}
+
 .contact {
     background-color: #ff5733;
     border: none;
@@ -127,7 +132,7 @@ body {
     justify-content: center;
 }
 
-.main h1 {
+.main h1, .areas h1 {
     text-align: center;
     padding: 2rem 0;
     font-size: clamp(2rem, 5vw, 3rem);
@@ -194,4 +199,44 @@ body {
 
 .service-card button:hover {
     background-color: #067ea8;
+}
+
+.areas {
+    width: 100%;
+    height: auto;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.areas-body {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #333;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.body-item {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f0f0f0;
+    display: flex;
+    padding-left: 10%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 7.5px;
+    margin-bottom: 1rem;
+}
+
+.body-item img {
+    height: 1.5rem;
+}
+
+.body-item p {
+    margin-left: 2rem;
 }
