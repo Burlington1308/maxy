@@ -75,9 +75,20 @@ body {
     background-color: #e04e2a;
 }
 
+.logo {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 80%;
+    width: auto;
+}
+
 .hero {
     height: 70vh;
-    width: 100%;
+    width: 100vw;
     background-color: #08c4f3;
     display: flex;
 }
@@ -180,6 +191,7 @@ body {
     display: flex;
     padding: 10px;
     position: relative;
+    overflow: hidden;
 }
 
 .service-card:hover {
@@ -260,6 +272,7 @@ body {
     padding-bottom: 1rem;
     border-radius: 7.5px;
     margin-bottom: 1rem;
+    overflow: hidden;
 }
 
 .body-item img {
@@ -392,6 +405,7 @@ footer p {
 
 footer .social-media a {
     margin: 0 10px;
+    text-decoration: none;
 }
 
 footer .social-media img {

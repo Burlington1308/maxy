@@ -8,6 +8,7 @@
     .mobile {
         display: block;
         cursor: pointer;
+        z-index: 1000;
     }
 
     .nav-items {
@@ -25,9 +26,28 @@
     .nav-items.active {
         display: flex;
         z-index: 1000;
+        background-color: #08c4f3;
+        margin-top: 80px;
+        overflow-x: hidden;
+        position: absolute;
+        left: 0;
     }
     .nav-items a {
         padding: 0.5rem 0;
+    }
+
+    .navbar .contact {
+        display: none;
+    }
+
+    .hero {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .service-card {
+        flex-basis: 100%;
+        border-radius: 20vw !important;
     }
 
     .faqs-container {
