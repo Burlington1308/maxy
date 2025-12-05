@@ -136,6 +136,10 @@ body {
     text-align: center;
     padding: 2rem 0;
     font-size: clamp(2rem, 5vw, 3rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .services-container {
@@ -210,6 +214,11 @@ body {
     justify-content: center;
 }
 
+.areas h1 img {
+    height: 2.5rem;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
 .areas-body {
     width: 80%;
     margin: 0 auto;
@@ -239,4 +248,84 @@ body {
 
 .body-item p {
     margin-left: 2rem;
+}
+
+.whatsapp-link {
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    width: 60px;
+    height: 60px;
+    z-index: 1000;
+    background-color: #e6e6e6;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.whatsapp-link img, .phone-link img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.whatsapp-link:hover, .phone-link:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.phone-link {
+    position: fixed;
+    bottom: 20%;
+    right: 5%;
+    width: 60px;
+    height: 60px;
+    z-index: 1000;
+    background-color: #e6e6e6;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.email-link {
+    position: fixed;
+    bottom: 30%;
+    right: 5%;
+    width: 60px;
+    height: 60px;
+    z-index: 1000;
+    background-color: #e6e6e6;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.email-link img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.email-link:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}   
+
+.faqs {
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    padding: 4rem 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #e6e6e6;
+    margin-top: 2rem;
+}
+
+.faqs h1 {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: clamp(2rem, 5vw, 3rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
 }
