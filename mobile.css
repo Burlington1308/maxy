@@ -14,10 +14,17 @@
         flex-direction: column;
         width: 100%;
         display: none;
+        /*experimental*/
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.7rem !important;
+        position: absolute;
+        top: 0;
     }
 
     .nav-items.active {
         display: flex;
+        z-index: 1000;
     }
     .nav-items a {
         padding: 0.5rem 0;
