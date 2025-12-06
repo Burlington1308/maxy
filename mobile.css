@@ -1,4 +1,4 @@
-@media (max-width: 900px) {
+@media (max-width: 800px) {
     .mobile {
         display: block;
         cursor: pointer;
@@ -47,7 +47,7 @@
     }
 
     .service-card img {
-        width: 40%;
+        width: 30%;
     }
 
     /*.service-card button {
