@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .mobile {
         display: block;
         cursor: pointer;
@@ -42,11 +42,30 @@
     .service-card {
         flex-basis: 100%;
         border-radius: 5vw !important;
-        height: 35vh !important;
+        height: auto !important;
+        padding-bottom: 1rem;
     }
 
     .service-card img {
         width: 40%;
+    }
+
+    /*.service-card button {
+        position: static;
+        margin-top: 1rem;
+    }*/
+
+    .body-item {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .body-item img {
+        height: 1rem;
+        margin-bottom: 0.5rem;
+        width: fit-content;
     }
 
     .faqs-container {
@@ -70,5 +89,30 @@
         gap: 1rem;
         padding-left: 5%;
         padding-right: 5%;
+    }
+}
+
+@media (max-width: 450px) {
+    .service-card img {
+        width: 30%;
+    }
+
+    .service-card {
+        padding-bottom: 2rem;
+    }
+
+    .service-card h2 {
+        font-size: 3vw;
+    }
+    .service-card p {
+        font-size: 2.5vw;
+    }
+
+    .service-card button {
+        padding: 4px 8px;
+    }
+
+    .faq-item h3 {
+        font-size: 1rem;
     }
 }
