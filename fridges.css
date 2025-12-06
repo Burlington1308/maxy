@@ -1,0 +1,26 @@
+.hero {
+    background: url('images/IMG-20251202-WA0006.jpg')
+}
+
+.blank-space {
+    display: none;
+}
+
+.hero-content {
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-film {
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.5);
+    display: grid;
+    flex-direction: column;
+    place-content: center;
+}

@@ -36,8 +36,12 @@ body {
     font-weight: bold;
 }
 
-.navbar a:hover {
+.navbar .current{
     text-decoration: underline;
+}
+
+.navbar a:hover {
+    text-decoration: underline overline;
     transition: transform 0.5s ease-in-out;
 }
 
@@ -111,7 +115,6 @@ body {
     text-align: center;
     display: grid;
     place-content: center;
-    border-radius: 35% 0 35% 0;
     margin-right: 80px
 }
 .hero-content h1 {
@@ -182,7 +185,7 @@ body {
 .service-card {
     /*width: 30%;*/
     flex-basis: 45%;
-    max-height: clamp(150px, 20vh, 400px);
+    height: clamp(150px, 20vh, 400px);
     background-color: white;
     border-radius: 20px 80px 80px 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
