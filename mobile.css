@@ -41,7 +41,12 @@
 
     .service-card {
         flex-basis: 100%;
-        border-radius: 20vw !important;
+        border-radius: 5vw !important;
+        height: 35vh !important;
+    }
+
+    .service-card img {
+        width: 40%;
     }
 
     .faqs-container {

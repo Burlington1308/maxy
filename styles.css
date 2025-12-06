@@ -182,7 +182,7 @@ body {
 .service-card {
     /*width: 30%;*/
     flex-basis: 45%;
-    max-height: 150px;
+    max-height: clamp(150px, 20vh, 400px);
     background-color: white;
     border-radius: 20px 80px 80px 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -200,7 +200,7 @@ body {
 }
 
 .service-card img {
-    width: 30%;
+    width: 35%;
     object-fit: cover;
     clip-path: circle();
 }
