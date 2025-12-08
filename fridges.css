@@ -1,3 +1,9 @@
+body {
+    background: url('images/IMG-20251202-WA0034.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+}
+
+
 .hero {
     background: url('images/IMG-20251202-WA0006.jpg')
 }
@@ -23,4 +29,16 @@
     display: grid;
     flex-direction: column;
     place-content: center;
+}
+
+.fridge-body {
+    width: 100%;
+    padding: 5vh;
+}
+
+.fridge-content {
+    width: 60%;
+    padding: 5%;
+    background:rgba(255, 255, 255, 0.75);
+    border-radius: 5vh;
 }
