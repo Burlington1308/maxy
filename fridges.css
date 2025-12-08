@@ -42,3 +42,75 @@ body {
     background:rgba(255, 255, 255, 0.75);
     border-radius: 5vh;
 }
+
+.fridge-content h1 {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: clamp(2rem, 5vw, 3rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.fridge-content h2 {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.fridge-content p {
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.fridge-content ul {
+    margin-left: 10%;
+    margin-bottom: 1.5rem;
+}
+
+.fridge-details {
+    width: 100%;
+}
+
+.regassing {
+    width: 60%;
+    margin-left: auto;
+    margin-right: 5%;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 2rem;
+    border-radius: 5vh;
+}
+
+.regassing h2 {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.gas-details {
+    margin-right: auto;
+    width: 90%;
+    padding: 1rem;
+    border-radius: 5vh;
+    display: flex;
+    gap: 2rem
+}
+.gas-details img {
+    width: 50%;
+    border-radius: 3.75vh;
+}
+
+.gas-details p {
+    width: 50%;
+    align-self: center;
+    text-align: center;
+}
