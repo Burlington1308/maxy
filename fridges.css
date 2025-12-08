@@ -87,7 +87,7 @@ body {
     border-radius: 5vh;
 }
 
-.regassing h2 {
+.regassing h2, .compressor h2 {
     text-align: center;
     padding: 1rem 0;
     font-size: clamp(1.5rem, 3vw, 2rem);
@@ -122,22 +122,86 @@ body {
     margin-left: 0;
 }
 
+.comps {
+    width: 100%;
+    padding: 3vh;
+}
+
+.compressor {
+    width: 60%;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 5vh;
+    border-radius: 5vh;
+}
+
+.compressor-details {
+    width: 90%;
+    padding: 1rem;
+    border-radius: 5vh;
+    display: flex;
+    gap: 2rem;
+    overflow: hidden;
+}
+
+.compressor img {
+    width: 50%;
+    border-radius: 3.75vh;
+}
+
+.compressor p {
+    width: 50%;
+    align-self: center;
+    text-align: center;
+    text-decoration: underline underline;
+}
+
+.compressor button {
+    display: block;
+    margin-left: 0;
+}
+
 @media (max-width:850px) {
-    .fridge-content, .regassing {
+    .fridge-content{
         width: 80%;
         padding: 3vh;
         border-radius: 2vh;
     }
 
-    .gas-details {
+    .regassing {
+        width: 80%;
+        padding: 3vh;
+        border-radius: 2vh;
+    }
+
+    .compressor {
+        width: 80%;
+        padding: 3vh;
+        border-radius: 2vh;
+    }
+
+    .gas-details, .compressor-details {
         width: 100%;
         padding: 0.5rem;
         gap: 1rem;
         flex-direction: column;
     }
 
-    .gas-details img, .gas-details p {
+    .gas-details img, .gas-details p 
+    {
         width: 100%;
         border-radius: 1.75vh;
     }
+
+    .compressor-details img, .compressor-details p{
+        width: 100%;
+        border-radius: 1.75vh;
+    }
+
+
+    .compressor button {
+        display: block;
+        margin-left: 0;
+    }
 }
+
