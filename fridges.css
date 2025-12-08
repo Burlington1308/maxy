@@ -1,6 +1,7 @@
 body {
     background: url('images/IMG-20251202-WA0034.jpg') no-repeat center center/cover;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 
@@ -33,7 +34,7 @@ body {
 
 .fridge-body {
     width: 100%;
-    padding: 5vh;
+    padding: 3vh;
 }
 
 .fridge-content {
@@ -82,7 +83,7 @@ body {
     margin-left: auto;
     margin-right: 5%;
     background-color: rgba(255, 255, 255, 0.75);
-    padding: 2rem;
+    padding: 5vh;
     border-radius: 5vh;
 }
 
@@ -97,12 +98,12 @@ body {
 }
 
 .gas-details {
-    margin-right: auto;
     width: 90%;
     padding: 1rem;
     border-radius: 5vh;
     display: flex;
-    gap: 2rem
+    gap: 2rem;
+    overflow: hidden;
 }
 .gas-details img {
     width: 50%;
@@ -113,4 +114,30 @@ body {
     width: 50%;
     align-self: center;
     text-align: center;
+    text-decoration: underline underline;
+}
+
+.regassing button {
+    display: block;
+    margin-left: 0;
+}
+
+@media (max-width:850px) {
+    .fridge-content, .regassing {
+        width: 80%;
+        padding: 3vh;
+        border-radius: 2vh;
+    }
+
+    .gas-details {
+        width: 100%;
+        padding: 0.5rem;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .gas-details img, .gas-details p {
+        width: 100%;
+        border-radius: 1.75vh;
+    }
 }
