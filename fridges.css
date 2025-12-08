@@ -210,6 +210,29 @@ body {
     margin-left: 0;
 }
 
+.other {
+    width: 100%;
+    margin-top: 4vh;
+}
+
+.other-issues {
+    width: 75%;
+    margin: 0 auto;
+    background:rgba(0, 0, 0, 0.75);
+    color: white;
+    border-radius: 2vh;
+    padding: 5vh;
+}
+
+.other-issues p {
+    line-height: 1.6;
+}
+
+.other-issues ul {
+    padding-left: 5%;
+    line-height: 1.5;
+}
+
 @media (max-width:850px) {
     .fridge-content{
         width: 80%;
