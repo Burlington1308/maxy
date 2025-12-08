@@ -87,7 +87,7 @@ body {
     border-radius: 5vh;
 }
 
-.regassing h2, .compressor h2 {
+.regassing h2, .compressor h2{
     text-align: center;
     padding: 1rem 0;
     font-size: clamp(1.5rem, 3vw, 2rem);
@@ -161,6 +161,55 @@ body {
     margin-left: 0;
 }
 
+.rels {
+    width: 100%;
+}
+
+.relays {
+    width: 60%;
+    margin-left: auto;
+    margin-right: 5%;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 5vh;
+    border-radius: 5vh;
+}
+
+.relays h2 {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.relay-details {
+    width: 90%;
+    padding: 1rem;
+    border-radius: 5vh;
+    display: flex;
+    gap: 2rem;
+    overflow: hidden;
+}
+
+.relay-details img {
+    width: 50%;
+    border-radius: 3.75vh;
+}
+
+.relay-details p {
+    width: 50%;
+    align-self: center;
+    text-align: center;
+    text-decoration: underline underline;
+}
+
+.relays button {
+    display: block;
+    margin-left: 0;
+}
+
 @media (max-width:850px) {
     .fridge-content{
         width: 80%;
@@ -202,6 +251,24 @@ body {
     .compressor button {
         display: block;
         margin-left: 0;
+    }
+
+    .relays {
+        width: 80%;
+        padding: 3vh;
+        border-radius: 2vh;
+    }
+
+    .relay-details {
+        width: 100%;
+        padding: 0.5rem;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .relay-details img, .relay-details p {
+        width: 100%;
+        border-radius: 1.75vh;
     }
 }
 
