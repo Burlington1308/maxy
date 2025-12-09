@@ -1,0 +1,43 @@
+.blank-space {
+    background:  url('images/IMG-20251202-WA0042.jpg')
+}
+
+.air-con-info {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+
+.air-con-info h1 {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.air-con-info h2 {
+    font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+.air-con-info p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.air-con-info ul {
+    list-style-type: disc;
+    padding-left: 2rem;
+}
+
+.air-con-info ul li {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
