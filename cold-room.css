@@ -1,0 +1,66 @@
+.blank-space {
+    background: url('images/IMG-20251202-WA0033.jpg')
+}
+
+.info {
+    width: 100%;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.info-content h1 {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.components {
+    width: 100%;
+    background-color: #333;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.components h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: clamp(2rem, 5vw, 3rem);
+    color: white;
+}
+
+.components-container {
+    background-color: #dad8d8;
+    border-radius: 3vh;
+    padding: 2vw;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    box-shadow: 0 4px 8px rgba(10, 142, 250, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.component-item {
+    width: 30%;
+    text-align: center;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 2.25vh;
+}
+
+.component-item img {
+    width: 40%;
+    border-radius: 2vh;
+    margin-bottom: 1rem;
+    aspect-ratio: 1/1;
+}
+
+.faqs {
+    margin-top: 0%;
+}
